@@ -1,74 +1,113 @@
-\# Moodle Autoebaluazioa — Konpetentzien tabla interaktiboa
+# ETHAZI ereduan gaitasunekin lanean — Moodlen integrazioa
 
+## 📖 Testuingurua
 
+Lanbide Heziketan **ETHAZI ereduak** gaitasun bidezko ikaskuntza eta ebaluazioa du oinarri. Eredu honek, ebaluazio eta kalifikazio prozesuen ikuspegitik, erronka berriak planteatzen ditu:
 
-Plantilla Moodle Database modulurako, ikasleen autoebaluazioa konpetentzien matrize batean egiteko. Ikasleak eta tutoreak gelaxka bakoitzean checkbox bat marka dezakete ("Lortuta") eta testua/lotura bat gehitu. Edizio guztiak automatikoki erregistratzen dira historikoan (nork eta noiz aldatu duen, zer markatu/desmarkatu duen eta zein gelaxkatan idatzi duen).
+* Ikaslearen jarraipena sistematikoki egitea.
+* Gaitasunen garapena dokumentatzea.
+* Irakasle-ikasle harreman pedagogikoa indartzea.
 
+Testuinguru honetan, ikaskuntza hibridorantz egiten ari garen bidean, jarduera eta baliabide pedagogikoak gero eta gehiago **Moodlera** bideratzen ari dira. Bilakaera horrek aukera bat ireki du: ikaskuntza plataforman integratzen den neurrian, gaitasunen ebaluazioa eta ebidentziazioa ere bertan txertatzea, ikaslearen esperientzia sinplifikatzeko eta dena modu zentralizatuan eskaintzeko.
 
+Horrela, ikasleari prozesu osoa leku bakar batetik kudeatzeko aukera ematen zaio, eta irakaslearen lana ere arintzen da.
 
-\## Funtzionalitateak
+---
 
+## 🎯 Helburuak
 
+Tresna honen helburu nagusiak honako hauek dira:
 
-\- Konpetentzien tabla bisuala (G6, M1-M4) lorpen-adierazleekin
+* Ikaslea bere ikaskuntza-prozesuaren eragile aktibo bihurtzea, prozesuan non dagoen identifikatu eta bere eboluzioaz kontziente izan dadin.
+* Ikasleak gaitasunetako lorpen-adierazleak ebidentziatu eta dokumentatu ahal izatea.
+* Irakaslearen eta ikaslearen arteko feedback jarraitua sustatzea, ikaskuntza-prozesua aberasteko.
+* Irakasleari ikasleen jarraipena erraztea, esku-hartze pedagogikoa unean unekoa eta zehatza izan dadin.
+* Gaitasunen garapena modu sistematikoan erregistratzea, kalifikazio-prozesuaren oinarri dokumentatu gisa.
+* Ikaskuntza hibridoaren testuinguruan, Moodlen egiten den lan pedagogikoa eta gaitasunen ebaluazioa plataforma berean integratzea, ikaslearen esperientzia sinplifikatzeko eta prozesuaren koherentzia bermatzeko.
 
-\- Checkbox bakoitzeko, gelaxka berde bihurtzen da markatzean
+---
 
-\- Testu-eremu bat gelaxka bakoitzaren barruan (oharrak, estekak...)
+## ⚙️ Tresnaren nondik norakoak
 
-\- Edizio-historikoa automatikoa: erabiltzailea + data + aldaketak
+Moodleko **Datu Base** jarduera erabiliz, gaitasunak eta horien lorpen-adierazleak plataforman bertan definitzen dira.
 
-\- Bi txantiloi: sarrera berria gehitzeko eta ikusteko
+Ikasle bakoitzak gaitasun baten sarreran, taula interaktibo baten bidez bere prozesua kudea dezake:
 
+* ✅ Lorpen-adierazleak markatu.
+* ✅ Ebidentziak eta oharrak gehitu.
+* ✅ Bere bilakaera historikoa kontsultatu.
+* ✅ Irakaslearen gainbegiratupean etengabeko feedbacka jaso.
 
+Gainera, ikaslearen prozesu osoa eta bilakaera **Excel/CSV formatuan deskargatu** daitezke, ondorengo kalifikazio-prozesuari begira dokumentazio-oinarri gisa erabiltzeko.
 
-\## Instalazioa Moodlen
+---
 
+## ✨ Ezaugarri nagusiak
 
+* Moodleko Datu Base jardueran oinarritutako irtenbidea.
+* ETHAZI ereduko gaitasun eta lorpen-adierazleetara egokitua.
+* Autoebaluazioa eta jarraipen pertsonalizatua.
+* Irakaslearen feedback jarraitua integratzeko aukera.
+* Historial eta trazabilitate osoa.
+* Datuen esportazioa Excel/CSV formatuan.
+* Moodle ingurunean guztiz integratua.
+* Tresna osagarririk instalatu beharrik gabe.
 
-1\. Sortu \*\*Datu-base\*\* jarduera bat Moodle ikastaroan
+---
 
-2\. \*\*Eremuak\*\* atalean, sortu eremu hauek:
+## 👨‍🎓 Ikaslearentzako onurak
 
-&#x20;  - 9 \*\*Hautamarkadun lauki\*\* (Checkbox): `chk\_A1`, `chk\_A2`, `chk\_A3`, `chk\_B1`, `chk\_B2`, `chk\_B3`, `chk\_C1`, `chk\_C2`, `chk\_D1`
+* Bere ikaskuntza-prozesuaren ikuspegi argia.
+* Lorpen-adierazleen gaineko kontzientzia handiagoa.
+* Autoebaluazioa eta hausnarketa sustatzen ditu.
+* Ikaskuntza eta ebaluazioa plataforma bakarrean.
+* Bere bilakaera historikoa kontsultatzeko aukera.
 
-&#x20;  - 9 \*\*Testu motza\*\* (Short text): `txt\_A1`, `txt\_A2`, `txt\_A3`, `txt\_B1`, `txt\_B2`, `txt\_B3`, `txt\_C1`, `txt\_C2`, `txt\_D1`
+---
 
-&#x20;  - 1 \*\*Testu motza\*\* historikoarentzat: `ultimo\_editor`
+## 👩‍🏫 Irakaslearentzako onurak
 
-3\. \*\*Txantiloiak\*\* atalean:
+* Ikasleen jarraipen errazagoa.
+* Ebidentzien zentralizazioa.
+* Feedback egituratua emateko aukera.
+* Kalifikazio-prozesurako dokumentazio objektiboa.
+* Ikasleen garapenaren trazabilitate historikoa.
 
-&#x20;  - \*\*Sarrera gehitu\*\* txantiloian: itsatsi `plantilla-editar.html` edukia
+---
 
-&#x20;  - \*\*Sarrera bakarra\*\* txantiloian: itsatsi `plantilla-visualizar.html` edukia
+## 🛠️ Teknologiak
 
-4\. Garrantzitsua: itsatsi beti editorearen \*\*HTML iturburu\*\* moduan (`</>` botoia), ez ikusizko moduan
+* Moodle
+* Moodle Database Activity
+* HTML
+* CSS
+* JavaScript
 
+---
 
+## 🚀 Garapen-egoera
 
-\## Pertsonalizazioa
+Proiektu hau Moodleko Datu Base jardueraren gainean garatutako prototipo funtzional bat da, ETHAZI ereduko gaitasunen ebaluazioa eta jarraipena modu erraz, bisual eta integratuan egiteko helburuarekin.
 
+---
 
+## 📄 Lizentzia
 
-\- Konpetentzien izenak eta deskribapenak HTMLan zuzenean alda daitezke
+### Kode iturria
 
-\- Koloreak `style="background:..."` atributuetan
+Proiektu honetako kodea **MIT License** lizentziapean banatzen da.
 
-\- Bereizlea `'\\\\n'` ordez `' ;; '` erabiltzen da Moodlek lerro-jauziak ezabatzen dituelako testu-eremu motzetan
+### Dokumentazioa eta material pedagogikoak
 
+Dokumentazioa, testuak eta material pedagogikoak **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** lizentziapean banatzen dira.
 
+Ikusi:
+https://creativecommons.org/licenses/by-sa/4.0/
 
-\## Lizentzia
+---
 
+## 🤝 Ekarpenak
 
+Hobekuntza-proposamenak, egokitzapenak edo beste testuinguru batzuetarako moldaketak ongietorriak dira.
 
-MIT — libreki erabili, aldatu eta partekatu.
-
-
-
-\## Ekarpenak
-
-
-
-Hobekuntzak, ohar edo arazoak: ireki \*issue\* bat edo bidali \*pull request\* bat.
-
+Fork bat sortu edo pull request bat bidali lasai.
