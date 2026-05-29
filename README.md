@@ -1,5 +1,7 @@
 # ETHAZI ereduan gaitasunekin lanean — Moodlen integrazioa
 
+![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
+
 ## 📖 Testuingurua
 
 Lanbide Heziketan **ETHAZI ereduak** gaitasun bidezko ikaskuntza eta ebaluazioa du oinarri. Eredu honek, ebaluazio eta kalifikazio prozesuen ikuspegitik, erronka berriak planteatzen ditu:
@@ -93,16 +95,35 @@ Proiektu hau Moodleko Datu Base jardueraren gainean garatutako prototipo funtzio
 
 ## 📄 Lizentzia
 
-### Kode iturria
+### 💻 Kode iturria
 
-Proiektu honetako kodea **MIT License** lizentziapean banatzen da.
+Proiektu honetako kodea (**HTML, CSS eta JavaScript**) **MIT License** lizentziapean banatzen da.
 
-### Dokumentazioa eta material pedagogikoak
+Horrek esan nahi du kodea libreki erabili, kopiatu, moldatu eta birbanatu daitekeela, lizentzia eta egiletza mantenduz.
 
-Dokumentazioa, testuak eta material pedagogikoak **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** lizentziapean banatzen dira.
+### 📚 Dokumentazioa eta material pedagogikoak
 
-Ikusi:
-https://creativecommons.org/licenses/by-sa/4.0/
+Dokumentazioa, testuak, azalpen metodologikoak eta material pedagogikoak **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** lizentziapean banatzen dira.
+
+Horrek esan nahi du:
+
+* ✅ Materiala kopiatu eta birbanatu daiteke.
+* ✅ Materiala moldatu, eraldatu eta garatu daiteke.
+* ✅ Hezkuntza-testuinguruetan libreki erabil daiteke.
+* ❌ Ezin da erabilera komertzialetarako erabili egilearen baimenik gabe.
+* ✅ Egiletza aitortu behar da.
+* ✅ Eratorritako lanak lizentzia beraren pean partekatu behar dira.
+
+Lizentziaren xehetasunak:
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+### 📌 Laburpena
+
+| Atala                                   | Lizentzia       |
+| --------------------------------------- | --------------- |
+| HTML, CSS eta JavaScript kodea          | MIT License     |
+| Dokumentazioa eta material pedagogikoak | CC BY-NC-SA 4.0 |
 
 ---
 
