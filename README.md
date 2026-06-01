@@ -2,6 +2,14 @@
 
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
 
+ETHAZI ereduko gaitasunen ebaluazioa eta jarraipena Moodleko Database Activity erabiliz.
+
+## 📸 Pantaila-argazkia
+
+![Autoebaluazio taula](assets/screenshot.png)
+
+---
+
 ## 📖 Testuingurua
 
 Lanbide Heziketan ETHAZI ereduak gaitasun bidezko ikaskuntza eta ebaluazioa du oinarri. Eredu honek, ebaluazio eta kalifikazio prozesuen ikuspegitik, erronka berriak planteatzen ditu: ikaslearen jarraipena sistematikoki egitea, gaitasunen garapena dokumentatzea eta irakasle-ikasle harreman pedagogikoa indartzea.
