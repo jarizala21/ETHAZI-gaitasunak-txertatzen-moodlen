@@ -2,7 +2,9 @@
 
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
 
-ETHAZI ereduko gaitasunen ebaluazioa eta jarraipena Moodleko Database Activity erabiliz.
+ETHAZI ereduko gaitasunen ebaluazioa eta jarraipena Moodleko **Database Activity** erabiliz.
+
+Tresna honek ikasleei beren lorpen-adierazleak autoebaluatzeko, ebidentziak eransteko eta euren bilakaera dokumentatzeko aukera ematen die, guztia Moodle ingurunean integratuta.
 
 ## 📸 Pantaila-argazkia
 
@@ -12,8 +14,12 @@ ETHAZI ereduko gaitasunen ebaluazioa eta jarraipena Moodleko Database Activity e
 
 ## 📖 Testuingurua
 
+## 📖 Testuingurua
+
 Lanbide Heziketan ETHAZI ereduak gaitasun bidezko ikaskuntza eta ebaluazioa du oinarri. Eredu honek, ebaluazio eta kalifikazio prozesuen ikuspegitik, erronka berriak planteatzen ditu: ikaslearen jarraipena sistematikoki egitea, gaitasunen garapena dokumentatzea eta irakasle-ikasle harreman pedagogikoa indartzea.
+
 Testuinguru honetan, ikaskuntza hibridorantz egiten ari garen bidean, jarduera eta baliabide pedagogikoak gero eta gehiago Moodlera bideratzen ari dira. Bilakaera horrek aukera bat ireki du: ikaskuntza plataforman integratzen den neurrian, gaitasunen ebaluazioa eta ebidentziazioa ere bertan txertatzea, ikaslearen esperientzia sinplifikatzeko eta dena modu zentralizatuan eskaintzeko. Horrela, ikasleari prozesu osoa leku bakar batetik kudeatzeko aukera ematen zaio, eta irakaslearen lana ere arintzen da.
+
 ---
 
 ## 🎯 Helburuak
@@ -31,8 +37,16 @@ Tresna honen helburu nagusiak honako hauek dira:
 
 ## ⚙️ Tresnaren nondik norakoak
 
-Moodleko Datu Base jarduera erabiliz, gaitasunak eta horien lorpen-adierazleak plataforman bertan definitzen dira. Ikasle bakoitzak gaitasun baten sarreran, taula interaktibo baten bidez bere prozesua kudea dezake: lorpen-adierazleak markatu, ebidentziak eta oharrak gehitu, eta irakaslearen gainbegiratupean etengabeko feedbacka jaso.
+Moodleko Datu Base jarduera erabiliz, gaitasunak eta horien lorpen-adierazleak plataforman bertan definitzen dira.
+
+Ikasle bakoitzak gaitasun baten sarreran, taula interaktibo baten bidez bere prozesua kudea dezake:
+
+* Lorpen-adierazleak markatu.
+* Ebidentziak eta oharrak gehitu.
+* Irakaslearen gainbegiratupean etengabeko feedbacka jaso.
+
 Gainera, ikaslearen prozesu osoa eta bilakaera Excel formatuan deskargatu daiteke, ondorengo kalifikazio-prozesuari begira dokumentazio-oinarri gisa erabiltzeko.
+
 ---
 
 ## ✨ Ezaugarri nagusiak
